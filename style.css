@@ -97,3 +97,34 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+button:hover {
+    background: #ff3e3a;
+}
+input:focus {
+    outline: none;
+}
+@media (max-width: 600px) {
+    .todo-app {
+        padding: 20px;
+    }
+
+    button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
+}
+button {
+    transition: background 0.3s ease;
+}
+
+ul li {
+    transition: background 0.2s ease;
+}
+input::placeholder {
+    color: #aaa;
+    opacity: 1;
+}
